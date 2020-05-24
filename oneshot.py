@@ -34,7 +34,7 @@ Sample Image Stucture:
 class oneShot:
     
     def __init__(self, learning_rate=0.0003, conf_threshold=0.7, 
-                 facenet_path="model-weights/facenet.h5"):
+                 facenet_path="model-weights/facenet-keras.h5"):
         print("\rLoading FaceNet Model", end="")
         self.facenet      = load_model(facenet_path)
         print("\r Loaded FaceNet Model")
